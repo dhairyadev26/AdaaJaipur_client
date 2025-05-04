@@ -1,98 +1,80 @@
-# E-Commerce Website
+AdaaJaipur E-Commerce Website – Frontend
+Welcome to the AdaaJaipur E-Commerce Website! This is the frontend codebase for a fully functional online shopping platform, designed to deliver an intuitive and engaging shopping experience.
 
-## Overview
+🚀 Overview
+AdaaJaipur offers users a seamless way to browse, wishlist, and purchase products online. Featuring a dynamic and responsive UI, categorized product listings, robust cart and wishlist management, and secure user authentication, AdaaJaipur is built for modern e-commerce needs.
 
-The E-Commerce Website is a fully functional online shopping platform designed to provide users with an intuitive and engaging shopping experience. The site features dynamic user interface elements, a wide range of products categorized for easy navigation, and robust functionalities for managing user interactions with products, including wishlist and cart features. Users can register, log in, browse products, add items to their cart and wishlist, and complete purchases seamlessly.
+🛠️ Tech Stack
+Frontend:
 
-## Setup Instructions
+React
 
-To set up the project locally, follow these instructions:
+React Router
 
-### Prerequisites
+Styled Components
 
-- Node.js (version 14 or higher)
-- MongoDB (local installation or MongoDB Atlas account)
+Axios
 
-### Clone the Repository
+Backend:
+(See AdaaJaipur_server for backend code)
 
-git clone https://github.com/yourusername/ecommerce-website.git
-cd ecommerce-website
+Node.js
+
+Express.js
+
+MongoDB (Mongoose)
+
+Bcrypt
+
+Jsonwebtoken
+
+✨ Key Features
+User Authentication: Secure registration, login, and account management.
+
+Dynamic Navbar: Navbar color adapts for optimal visibility.
+
+Product Browsing: Products categorized for easy navigation (Kurta, Saree, etc.).
+
+Wishlist: Save favorite products for future reference.
+
+Cart Management: Add, remove, and update product quantities; multi-step checkout.
+
+Stock Management: Only available products can be added to cart (by size/color).
+
+Order History: View past orders in user profile.
+
+Responsive Design: Fully mobile-friendly for all devices.
+
+⚡ Getting Started
+1. Prerequisites
+Node.js (v14+)
+
+Backend server running (see AdaaJaipur_server)
+
+2. Clone the Repository
+bash
+git clone https://github.com/dhairyadev26/AdaaJaipur_client.git
+cd AdaaJaipur_client
+3. Install Dependencies
+bash
+npm install
+4. Configure Environment Variables
+Create a .env file in the root directory and add any necessary variables (if required by your frontend, such as API endpoints):
+
 text
+REACT_APP_API_URL=http://localhost:5000
+5. Start the Frontend Server
+bash
+npm start
+The app will be available at http://localhost:3000.
 
-### Install Dependencies
+🤝 Contributing
+Contributions are welcome! Please fork the repository, create a new branch for your feature or fix, and submit a pull request.
 
-Navigate to both the frontend and backend directories to install the required dependencies.
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-#### Backend Setup
+📬 Contact
+For questions or support, please open an issue or contact the maintainer.
 
-1. Navigate to the backend directory:
-   cd backend
-   text
-
-2. Install backend dependencies:
-   npm install
-   text
-
-3. Create a .env file in the backend directory and add your environment variables:
-   MONGO_URI=your_mongodb_connection_string_here
-   JWT_SECRET=your_jwt_secret_here
-   PORT=5000
-   text
-
-4. Start the backend server:
-   npm start
-   text
-
-#### Frontend Setup
-
-1. Open a new terminal window and navigate to the frontend directory:
-   cd frontend
-   text
-
-2. Install frontend dependencies:
-   npm install
-   text
-
-3. Start the frontend development server:
-   npm start
-   text
-
-### Access the Application
-
-Once both servers are running, you can access the application by navigating to http://localhost:3000 in your web browser.
-
-## Key Features
-
-- _User Authentication_: Users can sign up, log in, and manage their accounts securely.
-- _Dynamic Navbar_: The navbar adapts its color based on the background for optimal visibility.
-- _Product Browsing_: Users can view products categorized by type (e.g., Kurta, Saree).
-- _Wishlist Functionality_: Users can save products to their wishlist for future reference.
-- _Cart Management_: Users can add products to their cart, adjust quantities, and proceed through a multi-step checkout process.
-- _Stock Management_: Users can only add available products to their cart based on selected size and color.
-- _Responsive Design_: The website is designed to be mobile-friendly for seamless use across devices.
-- _Order History_: Users can view their past orders in their profile.
-
-## Tech Stack
-
-The following technologies were used in the development of the E-Commerce Website:
-
-- _Frontend_:
-- React
-- React Router
-- Styled Components
-- Axios
-
-- _Backend_:
-- Node.js
-- Express.js
-- MongoDB (with Mongoose)
-- Bcrypt (for password hashing)
-- Jsonwebtoken (for authentication)
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Happy Shopping! 🛒
